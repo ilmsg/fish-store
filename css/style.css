@@ -1,0 +1,15 @@
+/*
+Theme Name: Bootstrap Commerce
+Description: A Wordpress E-Commerce Theme built on Bootstrap and Woocommerce
+Author: Torsten Jerschabek
+Version: 1.0
+License: GNU General Public License
+License URI: license.txt
+Tags: bootstrap, woocommerce
+*/
+
+@import "bootstrap.css";
+@import "bootstrap-responsive.css";
+@import "docs.css";
+
+    
