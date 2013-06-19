@@ -1,5 +1,5 @@
 <div id="product_categories-2" class="widget widget_product_categories">
-    <h4 class="widgettitle">Product Categories</h4>
+    <h4 class="widgettitle">หมวดหมู่สินค้า</h4>
     <ul class="product-categories">
         <li class="cat-item cat-item-82"><a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">Games</a></li>
         <li class="cat-item cat-item-81"><a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/tshirts/">Tshirts</a></li>

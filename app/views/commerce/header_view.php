@@ -31,20 +31,26 @@
 	<div class="container  boxed ">
 		<div class="row header">
 			<div class="span4">
+            	<!--
 				<a href="http://bootstrap-commerce.com.domainpreview.eu/" title="Bootstrap Commerce" rel="home">
                 	<img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2012/05/logo1.png" alt="Bootstrap Commerce" />
                 </a>
+                -->
 			</div>
 			<div class="span8">
 				<div class="row">
-					<div class="span1">
-					&nbsp;
-					</div>
-					
+					<div class="span1">&nbsp;</div>
 					<div class="span2">
-					<div id="text-3" class="widget widget_text"><h4 class="widgettitle">We accept</h4>			<div class="textwidget"><img src="http://bootstrap-commerce.com.domainpreview.eu//wp-content/uploads/2012/05/mini-cards.png"></div>
-		</div>					</div><!-- Top Sidebar 1 -->
-
+						<div id="text-3" class="widget widget_text">
+                        	<!--
+                        	<h4 class="widgettitle">We accept</h4>
+                            <div class="textwidget">
+                            	<img src="http://bootstrap-commerce.com.domainpreview.eu//wp-content/uploads/2012/05/mini-cards.png">
+                             </div>
+                             -->
+						</div>
+					</div><!-- Top Sidebar 1 -->
+                    
 					<div class="span3">	
 						<div id="text-2" class="widget widget_text widget-last">
                     		<h4 class="widgettitle">บริการสูกค้า</h4>
@@ -84,30 +90,30 @@
 				<div class="nav-collapse collapse">
                 	<ul id="menu-main-navigation" class="nav">
                     	<li id="menu-item-1282" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                        	<a href="product-category/games/">Games</a>
+                        	<a href="product-category/games/">หมวดหมู่ 1</a>
                         </li>
 						<li id="menu-item-1283" class="dropdown menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                        	<a href="product-category/tshirts/"class="dropdown-toggle" data-toggle="dropdown">Tshirts<b class="caret"></b></a>
+                        	<a href="product-category/tshirts/"class="dropdown-toggle" data-toggle="dropdown">หมวดหมู่ 2<b class="caret"></b></a>
 							<ul class="dropdown-menu">
                                 <li id="menu-item-1322" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">Games</a>
+                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">หมวดย่อย 1</a>
                                 </li>
                                 <li id="menu-item-1323" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/tshirts/">Tshirts</a>
+                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/tshirts/">หมวดย่อย 2</a>
                                 </li>
                                 <li id="menu-item-1285" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/prints/">Prints</a>
+                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/prints/">หมวดย่อย 3</a>
                                 </li>
                                 <li id="menu-item-1324" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/downloads/">Downloads</a>
+                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/downloads/">หมวดย่อย 4</a>
                                 </li>
                                 <li id="menu-item-1325" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/prints/">Prints</a>
+                                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/prints/">หมวดย่อย 5</a>
                                 </li>
                             </ul>
 						</li>
 						<li id="menu-item-1284" class="menu-item menu-item-type-taxonomy menu-item-object-product_cat">
-                        	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/downloads/">Downloads</a>
+                        	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/downloads/">หมวดหมู่ 3</a>
                         </li>
 					</ul>
                 </div>
