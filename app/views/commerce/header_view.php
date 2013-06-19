@@ -46,12 +46,15 @@
 		</div>					</div><!-- Top Sidebar 1 -->
 
 					<div class="span3">	
-					<div id="text-2" class="widget widget_text widget-last"><h4 class="widgettitle">Customer Service</h4>			<div class="textwidget"><h4><small>Customer Service: <a href="mailto:#">info@example.com</a></small></h4>
-<h4><small>or call us: 0123 / 45 456-210</small></h4></div>
+						<div id="text-2" class="widget widget_text widget-last">
+                    		<h4 class="widgettitle">บริการสูกค้า</h4>
+                            <div class="textwidget">
+                            	<h4><small>บริการลูกค้า: <a href="mailto:#">info@example.com</a></small></h4>
+                                <h4><small>หรือ โทรสอบถามได้ที่ : 084-1234-567 ถึง 9</small></h4></div>
 		</div>					</div><!-- Top Sidebar 2 -->
 					
 					<div class="span2 widget-last">
-					<h4>Shopping Cart</h4>
+					<h4>ตะกร้าสินค้า</h4>
 					<i class="icon-shopping-cart"></i> <a class="cart-contents" href="http://bootstrap-commerce.com.domainpreview.eu/warenkorb/" title="View your shopping cart">1 item - <span class="amount">&#36;0</span></a>
 					</div><!-- Mini Cart -->					
 					
@@ -59,11 +62,15 @@
 			</div>			
 		</div>
 	
-		<div class="row">
-		<div class="links pull-right"><ul id="menu-customer-navigation" class="nav nav-links"><li id="menu-item-1288" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item"><a href="http://bootstrap-commerce.com.domainpreview.eu/">Homepage</a></li>
-<li id="menu-item-1290" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://bootstrap-commerce.com.domainpreview.eu/kasse/bezahlen/">Checkout</a></li>
-<li id="menu-item-1289" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://bootstrap-commerce.com.domainpreview.eu/mein-konto/">Account</a></li>
-</ul></div>		</div>
+	<div class="row">
+		<div class="links pull-right">
+        	<ul id="menu-customer-navigation" class="nav nav-links">
+		        <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-4 current_page_item"><a href="">หน้าหลัก</a></li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">ชำระเงิน</a></li>
+				<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="">บัญชีผู้ใช้</a></li>
+			</ul>
+        </div>
+	</div>
 		
 
 	<div class="navbar">
@@ -108,7 +115,7 @@
                 <form class="navbar-search pull-right" role="search" method="get" id="searchform" action="" >
                     <input class="search-query span2" type="text" value="" name="s" id="s" />
                     <input type="hidden" value="product" name="post_type" id="post_type" />
-                    <input class="btn btn-small btn-search" type="submit" id="searchsubmit" value="Search" />
+                    <input class="btn btn-small btn-search" type="submit" id="searchsubmit" value="ค้นหาสินค้า" />
                 </form>
 			</div>
 		</div>

@@ -1,69 +1,57 @@
 <div class="row">
-<!--mfunc get_sidebar("") --><!--/mfunc--><div class="span3 sidebar">
-<div id="product_categories-2" class="widget widget_product_categories"><h4 class="widgettitle">Product Categories</h4><ul class="product-categories"><li class="cat-item cat-item-82"><a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">Games</a></li>
-<li class="cat-item cat-item-81"><a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/tshirts/">Tshirts</a></li>
-<li class="cat-item cat-item-80"><a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/downloads/">Downloads</a></li>
-<li class="cat-item cat-item-79"><a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/prints/">Prints</a></li>
-</ul></div><div id="text-4" class="widget widget_text">			<div class="textwidget"><a href="http://bootstrap-commerce.com.domainpreview.eu/sale/"><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2012/05/callout.png"></a></div>
-		</div></div>
+	<!--mfunc get_sidebar("") --><!--/mfunc-->
+	<div class="span3 sidebar">
+    	<?php echo $this->load->view( $this->theme . '/sidebar_view');?>		
+	</div>
 	<div class="span9">
-						
-<div id="Carousel" class="carousel slide">
-	<div class="carousel-inner">
-						
-
-		<div class="item">
-			<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/"><p><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/08/slide1.jpg" /></p>
-</a>
-						<div class="carousel-caption">
-				<h4>Bootstrap Commerce</h4>
-				<p>This is a bootstrap e-commerce theme</p>
-			</div>
-						
-		</div><!-- item -->
-								
-
-		<div class="item">
-			<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/"><p><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/08/slide2.jpg" /></p>
-</a>
-						<div class="carousel-caption">
-				<h4>WordPress Premium Theme</h4>
-				<p>A E-Commerce theme using Woocommerce and Twitter Bootstrap</p>
-			</div>
-						
-		</div><!-- item -->
-					</div><a class="left carousel-control" href="#Carousel" data-slide="prev">‹</a><a class="right carousel-control" href="#Carousel" data-slide="next">›</a>
-</div>			
-			
-							
-                                                                                    
-            <div class="post-4 page type-page status-publish hentry">
-
-
-                <div class="entry">
-                	
-
-<ul class="products thumbnails">
-
-			<li class="span2  first">
-		<div class="thumbnail">	
-						
-			<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
+		<div id="Carousel" class="carousel slide">
+			<div class="carousel-inner">
 				
-				<img width="150" height="123" src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/09/peace-150x123.jpg" class="attachment-shop_catalog wp-post-image" alt="peace" title="peace" />				
-			</a>
-			<div class="caption">
-			<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
-				<h5>Peace</h5>
-				
-			</a>
-
-				
-	<span class="price"><span class="amount">&#36;19.95</span></span>
-			</div>
-	
-		</div>	
-		</li>		<li class="span2 ">
+                <div class="item">
+                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">
+                    	<p><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/08/slide1.jpg" /></p>
+                    </a>
+                	<div class="carousel-caption">
+						<h4>Bootstrap Commerce</h4>
+						<p>This is a bootstrap e-commerce theme</p>
+					</div>
+				</div><!-- item -->
+                
+                <div class="item">
+                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">
+                    	<p><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/08/slide2.jpg" /></p>
+                	</a>
+                    <div class="carousel-caption">
+                        <h4>WordPress Premium Theme</h4>
+                        <p>A E-Commerce theme using Woocommerce and Twitter Bootstrap</p>
+                    </div>
+                </div><!-- item -->
+                
+		</div>
+        
+        <a class="left carousel-control" href="#Carousel" data-slide="prev">‹</a>
+        <a class="right carousel-control" href="#Carousel" data-slide="next">›</a>
+	</div>
+                                                                 
+	<div class="post-4 page type-page status-publish hentry">
+		<div class="entry">
+			<ul class="products thumbnails">
+				<li class="span2  first">
+					<div class="thumbnail">
+						<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
+							<img width="150" height="123" src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/09/peace-150x123.jpg" class="attachment-shop_catalog wp-post-image" alt="peace" title="peace" />
+						</a>
+						<div class="caption">
+							<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
+								<h5>Peace</h5>
+							</a>
+							<span class="price"><span class="amount">&#36;19.95</span></span>
+						</div>
+					</div>	
+				</li>
+        
+        <!--
+        <li class="span2 ">
 		<div class="thumbnail">	
 						
 			<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/beyond-the-moon/">
@@ -226,20 +214,11 @@
 	
 		/div>	
 		</li>
-</ul>
-
-<div class="clear"></div>
-
-
-
-					               	</div><!-- /.entry -->
-                
-            </div><!-- /.post -->
-            
-                                                
-		  
-  
-
+		-->
+			</ul>
+			<div class="clear"></div>
+		</div><!-- /.entry -->
+	</div><!-- /.post -->
 	</div><!-- Span 9 -->
 </div>
 	

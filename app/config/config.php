@@ -1,11 +1,5 @@
 <?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-function print_rr( $data = array() ){
-	print "<pre>";
-	print_r( $data );
-	print "</pre>";
-}
-
 /*
 |--------------------------------------------------------------------------
 | Base Site URL

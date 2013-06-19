@@ -37,11 +37,13 @@
         
       </footer>
     </div><!-- /container -->
- <p class="demo_store">This is a demo store for testing purposes &mdash; no orders shall be fulfilled.</p>		<script type="text/javascript">
-		
+    <!--
+    	<p class="demo_store">This is a demo store for testing purposes &mdash; no orders shall be fulfilled.</p>
+    -->
+    <script type="text/javascript">		
 			var _gaq = _gaq || [];
 			_gaq.push(
-				['_setAccount', 'UA-1723574-20'],
+				['_setAccount', '<?php echo $this->config->item('google-analytics'); ?>'],
 				['_setCustomVar', 1, 'logged-in', 'no', 1],
 				['_setCustomVar', 2, 'user-id', '', 1],
 				['_setCustomVar', 3, 'username', 'Guest', 1],
@@ -52,8 +54,7 @@
 				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
-	
+			})();	
 		</script>
 		<script type='text/javascript'>
 /* <![CDATA[ */
