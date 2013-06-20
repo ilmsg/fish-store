@@ -74,6 +74,7 @@
                   <li><?php echo anchor('admin/product/add','Add Product'); ?></li>
                 </ul>
               </li>
+              <li><?php echo anchor('admin/slide','Slide')?></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">

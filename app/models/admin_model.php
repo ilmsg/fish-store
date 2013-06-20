@@ -41,6 +41,14 @@ class Admin_model extends CI_Model {
 			return false;
 		}
 	}
+	
+	public function getProductLists(){
+		return $this->db->get('product');
+	}
+	
+	public function getSlideLists(){
+		return $this->db->get('slide');
+	}
 }
 
 

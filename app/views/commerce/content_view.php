@@ -6,49 +6,45 @@
 	<div class="span9">
 		<div id="Carousel" class="carousel slide">
 			<div class="carousel-inner">
-				
+            	<?php if( isset( $slides ) ) : ?>
+				<?php foreach( $slides->result() as $slide ): ?>
                 <div class="item">
-                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">
-                    	<p><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/08/slide1.jpg" /></p>
+                	<a href="<?php echo $slide->slide_url;?>">
+                    	<p><img src="<?php echo base_url('upload/' . $slide->slide_img); ?>" /></p>
                     </a>
                 	<div class="carousel-caption">
-						<h4>Bootstrap Commerce</h4>
-						<p>This is a bootstrap e-commerce theme</p>
+						<h4><?php echo $slide->slide_title; ?></h4>
+						<p><?php echo $slide->slide_desc; ?></p>
 					</div>
 				</div><!-- item -->
-                
-                <div class="item">
-                	<a href="http://bootstrap-commerce.com.domainpreview.eu/product-category/games/">
-                    	<p><img src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/08/slide2.jpg" /></p>
-                	</a>
-                    <div class="carousel-caption">
-                        <h4>WordPress Premium Theme</h4>
-                        <p>A E-Commerce theme using Woocommerce and Twitter Bootstrap</p>
-                    </div>
-                </div><!-- item -->
-                
+                <?php endforeach; ?>
+                <?php endif; ?>
+			</div>
+			<a class="left carousel-control" href="#Carousel" data-slide="prev">‹</a>
+			<a class="right carousel-control" href="#Carousel" data-slide="next">›</a>
 		</div>
-        
-        <a class="left carousel-control" href="#Carousel" data-slide="prev">‹</a>
-        <a class="right carousel-control" href="#Carousel" data-slide="next">›</a>
-	</div>
                                                                  
-	<div class="post-4 page type-page status-publish hentry">
-		<div class="entry">
-			<ul class="products thumbnails">
-				<li class="span2  first">
-					<div class="thumbnail">
-						<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
-							<img width="150" height="123" src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/09/peace-150x123.jpg" class="attachment-shop_catalog wp-post-image" alt="peace" title="peace" />
-						</a>
-						<div class="caption">
-							<a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
-								<h5>Peace</h5>
-							</a>
-							<span class="price"><span class="amount">&#36;19.95</span></span>
-						</div>
-					</div>	
-				</li>
+		<div class="post-4 page type-page status-publish hentry">
+			<div class="entry">
+				<ul class="products thumbnails">
+                	<?php $i = 0; ?>
+                	<?php foreach( $products->result() as $key => $product ): ?>
+                        <li class="span2  <?php echo ($i) ? '' : 'first' ?>">
+                            <div class="thumbnail">
+                                <a href="http://bootstrap-commerce.com.domainpreview.eu/shop/peace/">
+                                    <img width="150" height="123" src="http://bootstrap-commerce.com.domainpreview.eu/wp-content/uploads/2011/09/peace-150x123.jpg" class="attachment-shop_catalog wp-post-image" alt="peace" title="peace" />
+                                </a>
+                                <div class="caption">
+                                    <a href="<?php echo base_url('product/view/' . $product->product_slug_url); ?>">
+                                        <h5>Peace</h5>
+                                    </a>
+                                    <span class="price"><span class="amount">&#36;19.95</span></span>
+                                </div>
+                            </div>	
+                        </li>
+                    <?php $i++; ?>
+                    <?php endforeach; ?>
+                    
         
         <!--
         <li class="span2 ">
